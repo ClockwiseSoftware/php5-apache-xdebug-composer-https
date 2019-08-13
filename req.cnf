@@ -8,10 +8,10 @@ ST = VA
 L = SomeCity
 O = MyCompany
 OU = MyDivision
-CN = illinois.onfile.local
+CN = *.onfile.local
 [v3_req]
 keyUsage = critical, digitalSignature, keyAgreement
 extendedKeyUsage = serverAuth
 subjectAltName = @alt_names
 [alt_names]
-DNS.1 = illinois.onfile.local
+DNS.1 = *.onfile.local
